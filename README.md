@@ -1,34 +1,21 @@
-# sveltekit-starter
+# dirt-care
 
-A simple CRUD project using SvelteKit, Prisma, sqlite, Tailwind CSS, and TypeScript with many-to-many relationship example.
+Dirtbike or offroad vehicles maintance log software using sveltekit and prisma.
 
-Clone this project:
-
-```bash
-git clone git@github.com:ronsen/sveltekit-starter.git
-```
-
-Or you can use `degit`:
+### Run these following commands to try locally:
 
 ```bash
-npx degit ronsen/sveltekit-starter sveltekit-starter
-```
-
-Run these following commands to try locally:
-
-```bash
-cd sveltekit-starter
 npm install
 npm run dev
 ```
 
-Migrate the database:
+### Migrate the database:
 
 ```bash
 npx prisma migrate dev --name init
 ```
 
-Database seeding:
+### Database seeding:
 
 ```bash
 npx prisma db seed
@@ -36,7 +23,7 @@ npx prisma db seed
 
 Create `/static/images` directory.
 
-Sign in with a sample user:
+### Sign in with a sample user:
 
 ```
 Username: admin
