@@ -5,19 +5,20 @@
 import { PrismaClient } from "@prisma/client";
 
 declare global {
-	namespace App {
-		// interface Error {}
-		interface Locals {
-			user: {
-				id: number,
-				name: string
-			}
-		}
-		// interface PageData {}
-		// interface Platform {}
-	}
+  namespace App {
+    // interface Error {}
+    interface Locals {
+      user: {
+        id: number;
+        name: string;
+      };
+      preferedTheme: string | null;
+    }
+    // interface PageData {}
+    // interface Platform {}
+  }
 
-	var db: PrismaClient;
+  var db: PrismaClient;
 }
 
 export {};
